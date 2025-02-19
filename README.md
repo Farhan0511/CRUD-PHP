@@ -20,6 +20,18 @@ Proyek ini adalah aplikasi sederhana berbasis **PHP & MySQL** dengan fitur **CRU
 - **Bootstrap 5** (Frontend)
 - **Boxicons** (Ikon tambahan)
 
----
 
-## 📂 Struktur Folder
+## 🔧 Instalasi & Penggunaan
+1. **Clone repository ini**
+   ```sh
+   git clone https://github.com/username/repository-name.git
+
+##Import database
+. Buka phpMyAdmin
+. Buat database baru (misalnya crud_db)
+. Import file database.sql yang sudah disediakan
+
+##  konfigurasi database di file config/database.php
+$db = mysqli_connect("localhost", "root", "", "crud_db");
+
+note: Belum jadi semua :)
